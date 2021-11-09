@@ -1,9 +1,11 @@
 
-ul.remove('main')
-const ul =(document.querySelector('main'))
+main.remove();
 
-h1.textContent = id = "victory"
-console.log(h1.textContent)
-const victory = document.getElementById("victory")
-victory.innerHTML = "Jack is the champion"
- 
+const newHeader = document.createElement('h1');
+
+newHeader.setAttribute('id' , 'victory')
+
+newHeader.innerHTML = "YOUR-NAME is the champion"
+
+
+
